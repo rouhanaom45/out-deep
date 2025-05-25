@@ -18,6 +18,6 @@ mega-mkdir /part2 2>/dev/null
 # Upload all .txt files starting with "deep" to /part1
 for file in deep*.txt; do
     if [ -f "$file" ]; then
-        mega-put "$file" /part1
+        mega-put "$file" /part2
     fi
 done
