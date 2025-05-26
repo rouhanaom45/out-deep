@@ -35,7 +35,7 @@ for attempt in range(max_attempts):
             random_y = random.randint(location.top, location.top + location.height - 1)
             pyautogui.moveTo(random_x, random_y)
             pyautogui.mouseDown()
-            time.sleep(18)
+            time.sleep(12)
             pyautogui.mouseUp()
             time.sleep(1)
             exit()
